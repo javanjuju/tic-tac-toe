@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A simple tic tac toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javanjuju/tic-tac-toe.git"
+  },
+  "author": "Javan Mwanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javanjuju/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/javanjuju/tic-tac-toe#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-xo": "^0.43.1"
+  }
+}
