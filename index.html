@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="player-select">
+        <p>Select Player Type</p>
+        <div class="container">
+            <div class="player one">
+                <p>Player One</p>
+                <button type="button" class="human player-type player-one" value="human">Human</button>
+                <button type="button" class="ai player-type player-one" value="ai">AI</button>
+            </div>
+            <div class="player two">
+                <p>Player Two</p>
+                <button type="button" class="human player-type player-two" value="human">Human</button>
+                <button type="button" class="ai player-type player-two" value="ai">AI</button>
+            </div>
+        </div>
+        <div class="game-buttons">
+            <button type="button" id="start-game">Start Game!</button>
+            <button type="button" id = "new-game">New Game</button>
+        </div>
+    </div>
+    <div class="game-container">
+        <div id="game-board"></div>
+    </div>
+    <div class="display-winner">
+
+    </div>
+</body>
+</html>

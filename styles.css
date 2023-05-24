@@ -1,0 +1,62 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cell-color:#d1d5db;
+}
+.player-select{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.player-select .container{
+    display: flex;
+    gap: 10px;
+}
+.player-select button{
+    font-size: large;
+}
+.player-select .player-type{
+    width: 7ch;
+}
+.game-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.game-container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#game-board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+#game-board > div{
+    padding: 10px;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--cell-color);
+    font-weight: 100;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.display-winner{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.game-over{
+    color: white;
+}
